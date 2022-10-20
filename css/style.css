@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.wrapper{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    padding: 10px 0;
+}
+
+header div:not(.wrapper){
+    width: 49.7%;
+    display: inline-block;
+    text-align: left;
+}
+
+#social{
+    text-align: right;
+    vertical-align: super;
+}
+
+header img[src*="twitter"]{
+    margin-left: 20px;
+}
+
+header,
+section:nth-of-type(3){
+    background-color: #FFFFFF;
+}
+
+section:first-of-type,
+section:last-of-type{
+    background-color: #FAC960;
+}
+
+section:nth-of-type(2){
+    background-color: #F2F2F2;
+}
+
+section:first-of-type div.wrapper{
+    padding: 50px 0px;
+}
+
+form{
+    height: 100%;
+    margin: 0 auto;
+}
+
+form>input[type="email"]{
+    width: 69%;
+    display: inline-block;
+    height: inherit;
+    padding-left: 30px;
+}
+
+form>input[type="submit"]{
+    background-color: #8A6D2F;
+    color: white;
+    height: inherit;
+    width: 29%;
+}
+
+form>input{
+    border: none;
+    font-size: 25px;
+}
+
+#main-text{
+    text-align: center;
+    font-size: 43px;
+    color: #8A6D2F;
+}
+
+#main-text+div{
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+section:nth-child(2) div.wrapper{
+    padding: 75px 0;
+}
+
+img[src*="infinity"]{
+    margin-top: 35px;
+}
+
+p.title{
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 37px;
+}
+
+p.description{
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 23px;
+}
+
+section:nth-child(3) div.wrapper{
+    padding-top: 75px;
+}
+
+img[src*="phone"]{
+    margin: 15px auto;
+}
+
+button{
+    background-color: #FFFFFF;
+    width: 60px;
+    color: #999999;
+    border-radius: 3px;
+    border: 1px solid #758696;
+}
+
+section:nth-child(4) div.wrapper{
+    padding: 30px 0 90px 0;
+}
+
+footer img:not([src*="logo"]){
+    width: 18px;
+}
+
+footer>div.wrapper{
+    padding: 80px 0;
+}
+
+footer>div.wrapper div:first-child{
+    padding-bottom: 24px;
+}
+
+footer img[src*="facebook"]{
+    margin: 0 22px;
+}
